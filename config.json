@@ -1,0 +1,18 @@
+{
+  "source": {
+    "database": "db_out",
+    "port": "5432",
+    "host": "localhost",
+    "user": "postgres",
+    "table": "table_first",
+    "password": "123"
+  },
+  "destination": {
+    "database": "db_in",
+    "port": "5433",
+    "host": "localhost",
+    "user": "postgres",
+    "table": "table_second",
+    "password": "123"
+  }
+}
